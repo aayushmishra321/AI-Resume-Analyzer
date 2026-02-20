@@ -1,0 +1,162 @@
+# ========================================
+# AI Resume Analyzer - Git Ignore File
+# ========================================
+
+# ========================================
+# Environment Variables & Secrets
+# ========================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# ========================================
+# Node.js Dependencies
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ========================================
+# Build Output
+# ========================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# ========================================
+# Logs
+# ========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================================
+# Testing
+# ========================================
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+playwright-report/
+
+# ========================================
+# IDE & Editor Files
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# Uploaded Files & User Data
+# ========================================
+uploads/
+backend/uploads/
+frontend/uploads/
+*.pdf
+*.docx
+*.doc
+
+# ========================================
+# Database Files
+# ========================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ========================================
+# Temporary Files
+# ========================================
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Package Manager Lock Files (Optional)
+# Keep package-lock.json for consistency
+# ========================================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ========================================
+# Test Files (Keep test files but ignore results)
+# ========================================
+test-functionalities.js
+test-gemini.js
+*.test.local.js
+
+# ========================================
+# Miscellaneous
+# ========================================
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ========================================
+# Production Deployment Files
+# ========================================
+.vercel
+.netlify
+.firebase/
+
+# ========================================
+# Local Development
+# ========================================
+.local
+*.local
+
+# ========================================
+# Documentation (Optional - uncomment if needed)
+# ========================================
+# docs/build/
+# docs/.vuepress/dist/
+
+# ========================================
+# Keep Important Files
+# ========================================
+# The following files WILL be included:
+# - README.md
+# - package.json
+# - All source code files
+# - Configuration files (vite.config.ts, etc.)
+# - .env.example (if created)
