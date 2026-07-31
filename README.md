@@ -322,9 +322,6 @@ Winston-based structured logging with:
 - Safari (latest)
 - Edge (latest)
 
-## 📝 License
-
-This project is licensed under the MIT License.
 
 ## 🤝 Contributing
 
@@ -341,6 +338,4 @@ For support, email support@example.com or open an issue in the repository.
 - Shadcn/ui for beautiful React components
 - The open-source community for amazing tools and libraries
 
----
 
-**Built with ❤️ using React, Node.js, and Google Gemini AI**
