@@ -327,10 +327,6 @@ Winston-based structured logging with:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📧 Support
-
-For support, email support@example.com or open an issue in the repository.
-
 ## 🙏 Acknowledgments
 
 - Google Gemini AI for powerful language model capabilities
